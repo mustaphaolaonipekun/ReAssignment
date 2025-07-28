@@ -12,7 +12,8 @@
 }
 
 .center {
-  margin-inline: auto;
+  margin-right: auto;
+  margin-left: auto;
   max-width: var(--maxwidth);
 }
 nav {
