@@ -4,7 +4,7 @@
   scroll-behavior: smooth;
 }
 :root {
-  --maxwidth: 142rem;
+  --maxwidth: 1280px;
   font-family: Epilogue;
   --Black: #2d2d2d;
   --white: #ffffff;
@@ -21,10 +21,7 @@ nav {
   flex-wrap: wrap;
   justify-content: space-between;
   opacity: 1;
-  padding-top: 24px;
-  padding-right: 42px;
-  padding-bottom: 24px;
-  padding-left: 42px;
+  padding: 24px 42px;
 }
 
 .hero h4 {
@@ -190,10 +187,7 @@ img {
 .latest-works {
   gap: 42px;
   opacity: 1;
-  padding-top: 42px;
-  padding-right: 24px;
-  padding-bottom: 42px;
-  padding-left: 24px;
+ padding: 24px 42px;
 }
 .latest {
   margin-block: 20px;
@@ -241,10 +235,7 @@ img {
 .testimonials {
   gap: 42px;
   opacity: 1;
-  padding-top: 42px;
-  padding-right: 24px;
-  padding-bottom: 42px;
-  padding-left: 24px;
+  padding: 24px 42px;
 }
 .testimonial {
   display: flex;
